@@ -1,0 +1,7 @@
+@mixin heading-shadow {
+    box-shadow: 0px 2px 4px 0px lighten($couleur-black, 85%);
+}
+
+@mixin etape-shadow {
+    box-shadow: 0px 4px 15px 0px lighten($couleur-black, 85%);
+}

@@ -1,0 +1,149 @@
+.localisation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    background-color: $couleur-grey;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    &__label{
+        font-size: 1rem;
+        font-weight: 500;
+    }
+}
+
+.reservation{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    @media (max-width: 768px){
+        padding: 40px 30px 57px 30px;
+      }
+    
+    &__title{
+        padding: 0rem 2rem;
+    }
+}
+
+.Fonctionnement{
+    background-color: $couleur-white;
+    padding: 50px 20px;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+    @media (min-width: 769px){
+        align-items: center;
+    }
+    &__container{
+        @media (min-width: 769px){
+            width: 80%;
+        }
+    }
+    &__etapes{
+        display: flex;
+        gap: 25px;
+        margin-bottom: 16px;
+        @media (max-width: 768px){
+            flex-direction: column;
+          }
+        &__etape{
+            display: flex;
+            align-items: center;
+            background-color: $couleur-grey_light;
+            border-radius: 20px;
+            gap: 27px;
+            margin-left: 13px;
+            @include etape-shadow;
+            @media (min-width: 769px){
+                padding-right: 20px;
+              }
+            &__number{
+                width: 24px;
+                height: 24px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 20px;
+                color: $couleur-white;
+                background-color: $couleur-primary;
+                margin-left: -13px;
+            }
+        }
+        
+    }
+}
+
+.restaurants{
+    padding: 55px 20px;
+    display: flex;
+    @media (min-width: 769px){
+        justify-content: center;
+    }
+    &__container{
+        width: 100%;
+        @media (min-width: 769px){
+            width: 80%;
+        }
+    }
+    &__cards{
+        display: grid;
+        margin-top: 25px;
+        margin-bottom: 10px;
+        gap: 18px;
+        @media (min-width: 769px){
+            grid-template-columns: 1fr 1fr;
+            gap: 100px;
+        }
+        
+        &__links{
+            width: 100%;
+            height: auto;
+            text-decoration: none;
+            color: $couleur-black;
+            
+          
+        }
+    }
+}
+
+.card{
+    width: 100%;
+    border-radius: 20px;
+    background-color: $couleur-white;
+    padding-bottom: 15px;
+    &__img{
+      width: 100%;
+      object-fit: cover;
+      border-radius: 15px 15px 0px 0px;
+      height: 160px;
+    }
+    &__image-new{
+        position: relative;
+    }
+    &__content{
+        padding-left: 13px;
+        padding-right: 25px;
+        margin-top: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.card-city{
+    margin: 5px 0px 0px 0px;
+}
+
+.new{
+    position: absolute;
+    background-color: $couleur-Tertiary;
+    color: $couleur-green;
+    padding: 8px 10px ;
+    border-radius: 2px;
+    font-size: 0.875rem;
+    font-weight: 500;
+    top: 15px;
+    right: 15px;
+}
+

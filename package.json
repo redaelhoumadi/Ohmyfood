@@ -1,0 +1,19 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "Ohmyfood est une entreprise de commande de repas en ligne.\r https://github.com/redaelhoumadi/Ohmyfood.git",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:assets/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/redaelhoumadi/Ohmyfood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/redaelhoumadi/Ohmyfood/issues"
+  },
+  "homepage": "https://github.com/redaelhoumadi/Ohmyfood#readme"
+}
