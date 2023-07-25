@@ -45,6 +45,7 @@
         display: flex;
         gap: 25px;
         margin-bottom: 16px;
+        margin-top: 25px;
         @media (max-width: 768px){
             flex-direction: column;
           }
@@ -145,5 +146,6 @@
     font-weight: 500;
     top: 15px;
     right: 15px;
+    @include heading-shadow;
 }
 

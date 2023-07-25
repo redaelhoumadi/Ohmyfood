@@ -52,6 +52,14 @@ button {
 
 .fa-heart:hover{
     background: -webkit-linear-gradient($couleur-primary, $couleur-secondary);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.back{
+    font-size: 1rem;
+    position: absolute;
+    left: 23px;
+    color: $couleur-black;
 }
