@@ -44,19 +44,6 @@ button {
     font-size:20px ;
 }
 
-.fa-heart{
-    font-size: 21px;
-    color: $couleur-black;
-    margin-top: 8px;
-}
-
-.fa-heart:hover{
-    background: -webkit-linear-gradient($couleur-primary, $couleur-secondary);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .back{
     font-size: 1rem;
     position: absolute;
