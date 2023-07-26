@@ -23,4 +23,11 @@ button {
     background: linear-gradient( $couleur-secondary , $couleur-primary);
     border: none;
     width: fit-content;
+    cursor: pointer;
+    @include button-shadow;
+}
+
+
+button:hover{
+    background: linear-gradient( $couleur-secondary , $couleur-primary 80%);
 }
