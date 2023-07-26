@@ -27,18 +27,6 @@ h4{
     font-weight: 500;
 }
 
-button {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    font-size: 1rem;
-    color: $couleur-white;
-    border-radius: 25px;
-    padding: 15px 22px;
-    background: linear-gradient( $couleur-secondary , $couleur-primary);
-    border: none;
-    width: fit-content;
-}
-
 .fa-mobile-screen-button, .fa-list, .fa-store{
     color: $couleur-grey_tint;
     font-size:20px ;

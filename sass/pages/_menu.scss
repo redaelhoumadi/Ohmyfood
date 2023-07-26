@@ -7,3 +7,76 @@
     }
 }
 
+.menu-container{
+    background-color: $couleur-grey_light;
+    border: solid 1px $couleur-grey_light;
+    border-radius: 33px 33px 0px 0px;
+    padding: 30px 13px;
+    position: relative;
+    margin-top: -40px;
+    &__title{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+    }
+
+}
+
+.entrees{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.entrees h2{
+    font-weight: 300;
+    font-size: 1rem;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.btm-border{
+    width: 40px;
+    height: 3px;
+    display: block;
+    background-color: $couleur-Tertiary;
+}
+
+.choix{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: $couleur-white;
+    border-radius: 15px;
+    height: 42px;
+    @include etape-shadow ;
+}
+
+.choix h3{
+    font-weight: 500;
+    margin: 0px;
+    color: $couleur-black;
+}
+
+.choix h4{
+    font-size: 0.938rem;
+    font-weight: 300;
+    margin: 3px 0px 0px 0px;
+}
+
+.choix h5{
+    font-weight: 700;
+    font-size: 0.938rem;
+    margin-top: 50px;
+}
+
+.commander{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
