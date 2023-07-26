@@ -386,31 +386,66 @@ footer {
 
 .choix {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  padding: 15px;
   background-color: #fff;
   border-radius: 15px;
-  height: 42px;
+  height: 69px;
+  cursor: pointer;
+  overflow: hidden;
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
+}
+.choix:hover .choix__check {
+  margin-right: 0;
+}
+.choix__title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  padding: 15px;
+}
+.choix__price {
+  font-weight: 500;
+  font-size: 1.125rem;
+  margin-left: auto;
+  display: flex;
+  align-items: flex-end;
+  padding: 15px;
+}
+.choix__check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -95px;
+  width: 65px;
+  padding: 0 0.9375rem;
+  background-color: #99e2d0;
+  transition: margin-right 0.4s ease-in-out;
+}
+.choix__check::after {
+  content: "\f00c";
+  font-family: "FontAwesome";
+  padding: 0.3125rem;
+  border-radius: 50%;
+  color: #99e2d0;
+  font-size: 0.9375rem;
+  background-color: #fff;
+  transition: transform 0.4s ease-in-out;
 }
 
 .choix h3 {
   font-weight: 500;
   margin: 0px;
   color: #000;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .choix h4 {
   font-size: 0.938rem;
   font-weight: 300;
   margin: 3px 0px 0px 0px;
-}
-
-.choix h5 {
-  font-weight: 700;
-  font-size: 0.938rem;
-  margin-top: 50px;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .commander {

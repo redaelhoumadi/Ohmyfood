@@ -47,31 +47,59 @@
 
 .choix{
     display: flex;
-    align-items: center;
     justify-content: space-between;
-    padding: 15px;
     background-color: $couleur-white;
     border-radius: 15px;
-    height: 42px;
+    height: 69px;
+    cursor: pointer;
+    overflow: hidden;
+    &:hover .choix__check{
+        margin-right: 0;
+    }
     @include etape-shadow ;
+    &__title{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding: 15px;
+    }
+    &__price{
+    font-weight: 500;
+    font-size: 1.125rem;
+    margin-left: auto;
+    display: flex;
+    align-items: flex-end;
+    padding:15px;
+    }
+    &__check{
+        @include choix-check;
+    }
+    &__check::after{
+        content: "\f00c";
+        font-family: "FontAwesome";
+        padding: 0.3125rem;
+        border-radius: 50%;
+        color: #99e2d0;
+        font-size: .9375rem;
+        background-color: #fff;
+        transition: transform .4s ease-in-out;    
+    }
 }
 
 .choix h3{
     font-weight: 500;
     margin: 0px;
     color: $couleur-black;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .choix h4{
     font-size: 0.938rem;
     font-weight: 300;
     margin: 3px 0px 0px 0px;
-}
-
-.choix h5{
-    font-weight: 700;
-    font-size: 0.938rem;
-    margin-top: 50px;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .commander{
