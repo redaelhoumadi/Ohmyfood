@@ -14,12 +14,16 @@
     padding: 30px 13px;
     position: relative;
     margin-top: -40px;
+    @media (min-width: 769px){
+        width: 1055px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 50px 0px;
+    }
     &__title{
         display: flex;
         justify-content: space-between;
         align-items: center;
-
-
     }
 
 }
