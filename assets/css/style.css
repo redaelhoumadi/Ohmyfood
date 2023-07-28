@@ -162,27 +162,18 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 16px;
   cursor: pointer;
 }
 .heart__icon--empty {
-  position: absolute;
   color: black;
+  transition: all 200ms;
 }
-.heart__icon--full {
-  position: absolute;
-  opacity: 0;
+.heart__icon:hover .heart__icon--empty {
+  font-weight: 900;
   background: linear-gradient(#FF79DA, #9356DC);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  transition: all 200ms;
-}
-.heart__icon:hover .heart__icon--full {
-  opacity: 1;
-}
-.heart__icon:hover .heart__icon--empty {
-  opacity: 0;
 }
 
 .localisation {
@@ -379,11 +370,22 @@ footer {
   justify-content: space-between;
   align-items: center;
 }
+@media (min-width: 769px) {
+  .menu-container__title {
+    justify-content: center;
+    gap: 24px;
+  }
+}
 
 .entrees {
   display: flex;
   flex-direction: column;
   gap: 12px;
+}
+@media (min-width: 769px) {
+  .entrees {
+    padding: 0px 200px;
+  }
 }
 
 .entrees h2 {

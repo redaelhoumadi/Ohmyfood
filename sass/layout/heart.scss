@@ -3,26 +3,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 16px;
     cursor: pointer;
     &--empty{
-        position: absolute;
         color: black;
+        transition: all 200ms;
     }
-    &--full{
-        position: absolute;
-        opacity: 0;
+    &:hover &--empty{
+        font-weight: 900;
         background: linear-gradient(#FF79DA, #9356DC);
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
-        transition: all 200ms;
-    }
-    &:hover &--full{
-        opacity: 1;
-
-    }
-    &:hover &--empty{
-        opacity: 0;
     }
 }

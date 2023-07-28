@@ -24,14 +24,20 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        @media (min-width: 769px) {
+            justify-content: center;
+            gap: 24px;
+        }
     }
-
 }
 
 .entrees{
     display: flex;
     flex-direction: column;
     gap: 12px;
+    @media(min-width:769px){
+        padding: 0px 200px;
+    }
 }
 
 .entrees h2{
