@@ -25,9 +25,11 @@ button {
     width: fit-content;
     cursor: pointer;
     @include button-shadow;
+    transition: all 200ms;
 }
 
 
 button:hover{
-    background: linear-gradient( $couleur-secondary , $couleur-primary 80%);
+    opacity: 0.8;
+    @include button-shadow-hover;
 }

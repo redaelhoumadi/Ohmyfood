@@ -25,10 +25,12 @@ button {
   width: fit-content;
   cursor: pointer;
   box-shadow: 0px 4px 10px 0px #bfbfbf;
+  transition: all 200ms;
 }
 
 button:hover {
-  background: linear-gradient(#FF79DA, #9356DC 80%);
+  opacity: 0.8;
+  box-shadow: 0px 4px 10px 0px #353535;
 }
 
 body {
@@ -166,7 +168,7 @@ footer {
 }
 .heart__icon--empty {
   color: black;
-  transition: all 200ms;
+  transition: all 200ms ease;
 }
 .heart__icon:hover .heart__icon--empty {
   font-weight: 900;

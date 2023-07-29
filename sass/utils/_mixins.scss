@@ -6,6 +6,11 @@
     box-shadow: 0px 4px 10px 0px lighten($couleur-black, 75%);
 }
 
+@mixin button-shadow-hover{
+    box-shadow: 0px 4px 10px 0px $couleur-grey_dark;
+}
+
+
 @mixin etape-shadow {
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
 }

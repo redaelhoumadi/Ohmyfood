@@ -6,7 +6,7 @@
     cursor: pointer;
     &--empty{
         color: black;
-        transition: all 200ms;
+        transition: all 200ms ease;
     }
     &:hover &--empty{
         font-weight: 900;
