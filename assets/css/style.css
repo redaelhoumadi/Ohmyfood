@@ -1,11 +1,28 @@
 @keyframes apparition {
   from {
-    transform: translateY(20px);
+    transform: translateY(40px);
     opacity: 0;
   }
   to {
     transform: translateY(0);
     opacity: 1;
+  }
+}
+@keyframes reload_visibility {
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
   }
 }
 html {
@@ -21,6 +38,11 @@ body {
 
 .main-container {
   width: 100%;
+}
+
+main {
+  position: relative;
+  z-index: 0;
 }
 
 button {
@@ -188,6 +210,27 @@ footer {
   color: transparent;
 }
 
+.loader-container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
+  background-color: #f6f6f6;
+  position: fixed;
+  animation: reload_visibility 2s ease forwards;
+}
+
+.loader {
+  border: 5px solid #9356DC;
+  border-radius: 50%;
+  border-top: 5px solid #FF79DA;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
 .localisation {
   display: flex;
   justify-content: center;
@@ -308,6 +351,7 @@ footer {
   height: auto;
   text-decoration: none;
   color: #000;
+  animation: apparition 1.5s both;
 }
 
 .card {
@@ -489,6 +533,7 @@ footer {
 
 .image-background {
   width: 100%;
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */

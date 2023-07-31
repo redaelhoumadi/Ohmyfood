@@ -12,6 +12,10 @@ body {
 .main-container{
     width: 100%;
 }
+main{
+    position: relative;
+    z-index: 0;
+}
 
 button {
     font-family: 'Roboto', sans-serif;

@@ -1,0 +1,103 @@
+[33mcommit c2f05b02e6b31e687f984d2cf14370cac47f1097[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: b3a58e8 115c7ef
+Author: redaelhoumadi <reda.elhoumadi@gmail.com>
+Date:   Sat Jul 29 18:16:16 2023 +0200
+
+    Merge branch 'main' of https://github.com/redaelhoumadi/Ohmyfood
+
+[33mcommit b3a58e80df06d84a6ca3f65cd53bdcdb1c927460[m
+Author: redaelhoumadi <reda.elhoumadi@gmail.com>
+Date:   Sat Jul 29 18:15:36 2023 +0200
+
+    modification animation
+
+[33mcommit 115c7effb56ba17115cbdfb21cacf838615f8b34[m
+Author: redaelhoumadi <reda.elhoumadi@gmail.com>
+Date:   Fri Jul 28 15:46:46 2023 +0200
+
+    Create static.yml
+
+[33mcommit 2237bea503620ae2b2efc92ac7f15ead443a7570[m
+Author: redaelhoumadi <reda.elhoumadi@gmail.com>
+Date:   Fri Jul 28 15:34:18 2023 +0200
+
+    modification du coeur
+
+[33mcommit dda561ffb7d0e39d19d9ac5f7e46f2f4e0e8959c[m
+Author: redaelhoumadi <reda.elhoumadi@gmail.com>
+Date:   Fri Jul 28 10:39:21 2023 +0200
+
+    ajout page francaise
+
+[33mcommit 980f641c0995dec7394b64fa10f96d7c39ab1380[m
+Author: redaelhoumadi <reda.elhoumadi@gmail.com>
+Date:   Thu Jul 27 11:30:25 2023 +0200
+
+    ajout page note
+
+[33mcommit 576fe84fb22d0c2dba9e25b1044ef4db3793d562[m
+Author: redaelhoumadi <reda.elhoumadi@gmail.com>
+Date:   Wed Jul 26 18:08:33 2023 +0200
+
+    supression menu
+
+[33mcommit c627ef2846245f010841b36521a10eba6e74097f[m
+Author: redaelhoumadi <reda.elhoumadi@gmail.com>
+Date:   Wed Jul 26 18:06:32 2023 +0200
+
+    ajout page menu delice
+
+[33mcommit 913d23e37d0aa2905a38535b3db802ff50635959[m
+Author: redaelhoumadi <reda.elhoumadi@gmail.com>
+Date:   Wed Jul 26 15:36:47 2023 +0200
+
+    ajout de l'annimation check
+
+[33mcommit 721b8cd3c9fbd240fad0abc1f5479af8ce3fb36e[m
+Author: redaelhoumadi <reda.elhoumadi@gmail.com>
+Date:   Wed Jul 26 11:31:54 2023 +0200
+
+    ajout menu choix
+
+[33mcommit 09d13b33fa2d4a61cbbb35f56813c689fa4bd712[m
+Author: redaelhoumadi <reda.elhoumadi@gmail.com>
+Date:   Tue Jul 25 18:24:25 2023 +0200
+
+    ajout des coeur
+
+[33mcommit 92c8320bd03ff1800ae5bc6a81b8dc7041409a15[m
+Author: redaelhoumadi <reda.elhoumadi@gmail.com>
+Date:   Tue Jul 25 15:29:53 2023 +0200
+
+    ajout de page menu
+
+[33mcommit 81b6ff450ffa5423cf2e0a96fc06211022e185e8[m
+Author: redaelhoumadi <reda.elhoumadi@gmail.com>
+Date:   Mon Jul 24 16:14:19 2023 +0200
+
+    index update
+
+[33mcommit 7d1e6a46f1f002db7d4cfcc421b994ded86306d7[m
+Merge: 408c60a e9ce1e1
+Author: redaelhoumadi <reda.elhoumadi@gmail.com>
+Date:   Thu Jul 20 11:19:51 2023 +0200
+
+    Merge branch 'main' of https://github.com/redaelhoumadi/Ohmyfood
+
+[33mcommit 408c60a702dd611741e8de406a059782fa83baed[m
+Author: redaelhoumadi <reda.elhoumadi@gmail.com>
+Date:   Thu Jul 20 11:10:23 2023 +0200
+
+    supression du style
+
+[33mcommit e9ce1e16f15924d8f852b44d87f920ddc4af60b8[m
+Author: redaelhoumadi <reda.elhoumadi@gmail.com>
+Date:   Wed Jul 19 19:55:45 2023 +0200
+
+    Create README.md
+
+[33mcommit 0bb9e1c19617ba7cb133b70a642bd2db297961bd[m
+Author: redaelhoumadi <reda.elhoumadi@gmail.com>
+Date:   Wed Jul 19 18:52:02 2023 +0200
+
+    ajout fichier assets
