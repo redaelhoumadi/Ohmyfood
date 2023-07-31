@@ -63,6 +63,7 @@
     height: 69px;
     cursor: pointer;
     overflow: hidden;
+    animation: apparition 1s both;
     &:hover .choix__check{
         margin-right: 0;
     }
