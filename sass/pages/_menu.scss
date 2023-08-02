@@ -88,12 +88,11 @@
     &__check::after{
         content: "\f00c";
         font-family: "FontAwesome";
-        padding: 0.3125rem;
+        padding: 0.3rem;
         border-radius: 50%;
         color: #99e2d0;
-        font-size: .9375rem;
+        font-size: 1rem;
         background-color: #fff;
-        transition: transform .4s ease-in-out;    
     }
 }
 
