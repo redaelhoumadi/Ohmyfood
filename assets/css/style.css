@@ -57,7 +57,7 @@ button {
   width: fit-content;
   cursor: pointer;
   box-shadow: 0px 4px 10px 0px #bfbfbf;
-  transition: all 200ms;
+  transition: all 400ms;
 }
 
 button:hover {
@@ -231,7 +231,7 @@ footer {
   animation: spin 1s linear infinite;
 }
 
-.localisation {
+.location {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -240,7 +240,7 @@ footer {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-.localisation__label {
+.location__label {
   font-size: 1rem;
   font-weight: 500;
 }
@@ -262,7 +262,7 @@ footer {
   padding: 0rem 2rem;
 }
 
-.Fonctionnement {
+.functioning {
   background-color: #fff;
   padding: 50px 20px;
   display: flex;
@@ -270,27 +270,27 @@ footer {
   flex-direction: column;
 }
 @media (min-width: 769px) {
-  .Fonctionnement {
+  .functioning {
     align-items: center;
   }
 }
 @media (min-width: 769px) {
-  .Fonctionnement__container {
+  .functioning__container {
     width: 80%;
   }
 }
-.Fonctionnement__etapes {
+.functioning__steps {
   display: flex;
   gap: 25px;
   margin-bottom: 16px;
   margin-top: 25px;
 }
 @media (max-width: 768px) {
-  .Fonctionnement__etapes {
+  .functioning__steps {
     flex-direction: column;
   }
 }
-.Fonctionnement__etapes__etape {
+.functioning__steps__stage {
   display: flex;
   align-items: center;
   background-color: #f6f6f6;
@@ -300,11 +300,11 @@ footer {
   box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
 }
 @media (min-width: 769px) {
-  .Fonctionnement__etapes__etape {
+  .functioning__steps__stage {
     padding-right: 20px;
   }
 }
-.Fonctionnement__etapes__etape__number {
+.functioning__steps__stage__number {
   width: 24px;
   height: 24px;
   display: flex;

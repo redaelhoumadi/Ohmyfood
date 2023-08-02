@@ -1,4 +1,4 @@
-.localisation{
+.location{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,7 +28,7 @@
     }
 }
 
-.Fonctionnement{
+.functioning{
     background-color: $couleur-white;
     padding: 50px 20px;
     display: flex;
@@ -42,7 +42,7 @@
             width: 80%;
         }
     }
-    &__etapes{
+    &__steps{
         display: flex;
         gap: 25px;
         margin-bottom: 16px;
@@ -50,7 +50,7 @@
         @media (max-width: 768px){
             flex-direction: column;
           }
-        &__etape{
+        &__stage{
             display: flex;
             align-items: center;
             background-color: $couleur-grey_light;
