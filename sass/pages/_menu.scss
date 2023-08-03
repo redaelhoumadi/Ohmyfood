@@ -86,13 +86,13 @@
         @include choix-check;
     }
     &__check::after{
-        content: "\f00c";
+        content:"\f00c";
         font-family: "FontAwesome";
         padding: 0.3rem;
         border-radius: 50%;
-        color: #99e2d0;
+        color: $couleur-Tertiary;
         font-size: 1rem;
-        background-color: #fff;
+        background-color: $couleur-white;
     }
 }
 
