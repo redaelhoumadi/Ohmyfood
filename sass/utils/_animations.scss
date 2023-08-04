@@ -11,10 +11,10 @@
 
 @keyframes reload_visibility {
     90%{
-        opacity: 1;
+        display: flex;
     }
     100%{
-        opacity: 0;
+        display: none;
         z-index: 0;
     }
 }
