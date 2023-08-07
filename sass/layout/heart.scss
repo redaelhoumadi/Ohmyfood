@@ -5,21 +5,14 @@
     align-items: center;
     cursor: pointer;
     &:hover {
-        & .heart__icon--empty {
-            opacity: 0;
-        }
         & .heart__icon--full {
             opacity: 1;
         }
     }
     &--empty{
         color: black;
-        position: relative;
-        z-index: 1;
-        transition: all 0.4s ease-in-out;
     }
     &--full{
-        font-weight: 900;
         background: linear-gradient(#FF79DA, #9356DC);
         background-clip: text;
         -webkit-background-clip: text;
