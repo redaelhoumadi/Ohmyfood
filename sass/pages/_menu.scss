@@ -46,13 +46,13 @@
     margin-top: 35px;
     margin-bottom: 5px;
     text-transform: uppercase;
-}
-
-.btm-border{
+    &::after{
+    content: "";
     width: 40px;
     height: 3px;
     display: block;
     background-color: $couleur-Tertiary;
+    }
 }
 
 .choix{

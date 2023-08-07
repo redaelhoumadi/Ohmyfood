@@ -470,8 +470,8 @@ footer {
   margin-bottom: 5px;
   text-transform: uppercase;
 }
-
-.btm-border {
+.entrees h2::after {
+  content: "";
   width: 40px;
   height: 3px;
   display: block;
