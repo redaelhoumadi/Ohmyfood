@@ -8,9 +8,13 @@
         & .heart__icon--full {
             opacity: 1;
         }
+        & .heart__icon--empty {
+            opacity: 0;
+        }
     }
     &--empty{
         color: black;
+        transition: all 0.4s ease-in-out;
     }
     &--full{
         background: linear-gradient(#FF79DA, #9356DC);

@@ -24,14 +24,13 @@ button {
     color: $couleur-white;
     border-radius: 25px;
     padding: 15px 50px;
-    background: linear-gradient( $couleur-secondary , $couleur-primary);
+    background: linear-gradient($couleur-secondary , $couleur-primary);
     border: none;
     width: fit-content;
     cursor: pointer;
     @include button-shadow;
-    transition: all 200ms ease-in;
+    transition: all 300ms ease-in-out;
 }
-
 
 button:hover{
     opacity: 0.8;
