@@ -30,7 +30,7 @@
     }
 }
 
-.entrees{
+.menu{
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -39,7 +39,7 @@
     }
 }
 
-.entrees h2{
+.menu h2{
     font-weight: 300;
     font-size: 1rem;
     margin-top: 35px;
@@ -54,7 +54,7 @@
     }
 }
 
-.choix{
+.choice{
     display: flex;
     justify-content: space-between;
     background-color: $couleur-white;
@@ -63,10 +63,10 @@
     cursor: pointer;
     overflow: hidden;
     animation: apparition 1s 0.5s both ;
-    &:hover .choix__check{
+    &:hover .choice__check{
         margin-right: 0;
     }
-    @include etape-shadow ;
+    @include stage-shadow ;
     &__title{
         white-space: nowrap;
         overflow: hidden;
@@ -82,7 +82,7 @@
     padding:15px;
     }
     &__check{
-        @include choix-check;
+        @include choice-check;
     }
     &__check::after{
         content:"\f00c";
@@ -95,7 +95,7 @@
     }
 }
 
-.choix h3{
+.choice h3{
     font-weight: 500;
     margin: 0px;
     color: $couleur-black;
@@ -103,7 +103,7 @@
     overflow: hidden;
 }
 
-.choix h4{
+.choice h4{
     font-size: 0.938rem;
     font-weight: 300;
     margin: 3px 0px 0px 0px;
@@ -111,7 +111,7 @@
     overflow: hidden;
 }
 
-.commander{
+.Order{
     display: flex;
     flex-direction: column;
     align-items: center;
