@@ -1,3 +1,4 @@
+/****** User Location ***********/
 .location{
     display: flex;
     justify-content: center;
@@ -12,6 +13,7 @@
     }
 }
 
+/****** Reservation & Explore ***********/
 .reservation{
     padding: 30px;
     display: flex;
@@ -28,6 +30,7 @@
     }
 }
 
+/****** functioning & Steps ***********/
 .functioning{
     background-color: $couleur-white;
     padding: 50px 20px;
@@ -77,6 +80,7 @@
     }
 }
 
+/****** restaurants ***********/
 .restaurants{
     padding: 55px 20px;
     display: flex;
@@ -110,6 +114,7 @@
     }
 }
 
+/****** card ***********/
 .card{
     width: 100%;
     border-radius: 20px;
@@ -141,6 +146,7 @@
     margin: 5px 0px 0px 0px;
 }
 
+/****** new ***********/
 .new{
     position: absolute;
     background-color: $couleur-Tertiary;

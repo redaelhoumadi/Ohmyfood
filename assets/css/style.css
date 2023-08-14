@@ -1,3 +1,5 @@
+/****** Check ***********/
+/****** Menu apparition ***********/
 @keyframes apparition {
   from {
     transform: translateY(40px);
@@ -8,6 +10,7 @@
     opacity: 1;
   }
 }
+/****** Loader ***********/
 @keyframes reload_visibility {
   90% {
     display: flex;
@@ -244,6 +247,7 @@ footer {
   animation: spin 1s ease-in-out infinite;
 }
 
+/****** User Location ***********/
 .location {
   display: flex;
   justify-content: center;
@@ -258,6 +262,7 @@ footer {
   font-weight: 500;
 }
 
+/****** Reservation & Explore ***********/
 .reservation {
   padding: 30px;
   display: flex;
@@ -275,6 +280,7 @@ footer {
   padding: 0rem 2rem;
 }
 
+/****** functioning & Steps ***********/
 .functioning {
   background-color: #fff;
   padding: 50px 20px;
@@ -329,6 +335,7 @@ footer {
   margin-left: -13px;
 }
 
+/****** restaurants ***********/
 .restaurants {
   padding: 55px 20px;
   display: flex;
@@ -367,6 +374,7 @@ footer {
   animation: apparition 1.5s both;
 }
 
+/****** card ***********/
 .card {
   width: 100%;
   border-radius: 20px;
@@ -400,6 +408,7 @@ footer {
   margin: 5px 0px 0px 0px;
 }
 
+/****** new ***********/
 .new {
   position: absolute;
   background-color: #99E2D0;
@@ -413,6 +422,12 @@ footer {
   box-shadow: 0px 2px 4px 0px #d9d9d9;
 }
 
+/****** Background picture ***********/
+.image-background {
+  width: 100%;
+  position: relative;
+}
+
 .image-background > img {
   width: 100%;
   height: 275px;
@@ -424,6 +439,7 @@ footer {
   }
 }
 
+/****** Menu restaurant ***********/
 .menu-container {
   background-color: #f6f6f6;
   border: solid 1px #f6f6f6;
@@ -541,16 +557,12 @@ footer {
   overflow: hidden;
 }
 
+/****** Button Order ***********/
 .Order {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 40px;
-}
-
-.image-background {
-  width: 100%;
-  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */
