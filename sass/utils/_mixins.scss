@@ -1,7 +1,9 @@
+/****** Header shadow ***********/
 @mixin heading-shadow {
     box-shadow: 0px 2px 4px 0px lighten($couleur-black, 85);
 }
 
+/****** Button shadow ***********/
 @mixin button-shadow{
     box-shadow: 0px 4px 10px 0px lighten($couleur-black, 75);
 }
@@ -10,7 +12,7 @@
     box-shadow: 0px 4px 10px 0px $couleur-grey_tint;
 }
 
-
+/****** Stage ***********/
 @mixin stage-shadow {
     box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.1);
 }
