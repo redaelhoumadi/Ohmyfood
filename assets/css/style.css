@@ -140,31 +140,33 @@ footer {
 .footer-container {
   width: 100%;
   display: flex;
-  flex-direction: row-reverse;
-  gap: 90px;
+  flex-direction: column;
+  gap: 2px;
 }
-@media (max-width: 768px) {
+@media (min-width: 769px) {
   .footer-container {
-    flex-direction: column;
-    gap: 2px;
+    flex-direction: row-reverse;
+    gap: 90px;
   }
 }
 .footer-container__logo {
   height: 18px;
+  margin-bottom: 10px;
 }
-@media (max-width: 768px) {
+@media (min-width: 769px) {
   .footer-container__logo {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 }
 .footer-container__links {
   display: flex;
-  gap: 45px;
+  flex-direction: column;
+  gap: 0px;
 }
-@media (max-width: 768px) {
+@media (min-width: 769px) {
   .footer-container__links {
-    flex-direction: column;
-    gap: 0px;
+    flex-direction: row;
+    gap: 45px;
   }
 }
 
@@ -178,13 +180,14 @@ footer {
   list-style: none;
   padding: 0;
   display: flex;
+  flex-direction: column;
   gap: 10px;
-  margin: 0px;
+  margin-top: 10px;
+  margin-bottom: 0px;
 }
-@media (max-width: 768px) {
+@media (min-width: 769px) {
   .footer-container ul {
-    flex-direction: column;
-    margin-top: 10px;
+    flex-direction: row;
   }
 }
 
@@ -267,16 +270,16 @@ footer {
 
 /****** Reservation & Explore ***********/
 .reservation {
-  padding: 30px;
+  padding: 40px 30px 57px 30px;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   background-color: #f6f6f6;
 }
-@media (max-width: 768px) {
+@media (min-width: 769px) {
   .reservation {
-    padding: 40px 30px 57px 30px;
+    padding: 30px;
   }
 }
 .reservation__title {
@@ -306,10 +309,11 @@ footer {
   gap: 25px;
   margin-bottom: 16px;
   margin-top: 25px;
+  flex-direction: column;
 }
-@media (max-width: 862px) {
+@media (min-width: 862px) {
   .functioning__steps {
-    flex-direction: column;
+    flex-direction: row;
   }
 }
 .functioning__steps__stage {

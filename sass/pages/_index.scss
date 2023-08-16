@@ -15,14 +15,14 @@
 
 /****** Reservation & Explore ***********/
 .reservation{
-    padding: 30px;
+    padding: 40px 30px 57px 30px;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     background-color: $couleur-grey_light;
-    @media (max-width: 768px){
-        padding: 40px 30px 57px 30px;
+    @media (min-width: 769px){
+        padding: 30px;
       }
     
     &__title{
@@ -50,8 +50,9 @@
         gap: 25px;
         margin-bottom: 16px;
         margin-top: 25px;
-        @media (max-width: 862px){
-            flex-direction: column;
+        flex-direction: column;
+        @media (min-width: 862px){
+            flex-direction: row;
           }
         &__stage{
             display: flex;
