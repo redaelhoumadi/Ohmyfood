@@ -15,19 +15,18 @@
 }
 /****** Loader ***********/
 @keyframes reload_visibility {
-  90% {
+  from {
     display: flex;
   }
-  100% {
+  to {
     display: none;
-    z-index: 0;
   }
 }
 @keyframes spin {
-  0% {
+  from {
     transform: rotate(0deg);
   }
-  100% {
+  to {
     transform: rotate(360deg);
   }
 }
